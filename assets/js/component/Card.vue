@@ -1,5 +1,5 @@
 <template>
-    <div class="card">
+    <div class="card rounded-0 border-0">
         <div class="card-header">
             Simple card
         </div>
