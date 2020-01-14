@@ -10,6 +10,10 @@
         </div>
         <div>
             <ul>
+                <li v-for="i of 3">{{i+10}}</li>
+            </ul>
+
+            <ul>
                 <li v-for="(car, i) in cars" class="mb-1">
                     {{car.name}}
                     <span class="py-1 px-2 rounded-pill text-white bg-success">{{car.price}} $</span>
