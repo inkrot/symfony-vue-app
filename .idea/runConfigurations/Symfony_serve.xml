@@ -2,7 +2,7 @@
   <configuration default="false" name="Symfony serve" type="BatchConfigurationType" factoryName="Batch">
     <module name="symfony-vue-app" />
     <option name="INTERPRETER_OPTIONS" value="" />
-    <option name="WORKING_DIRECTORY" value="" />
+    <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     <option name="PARENT_ENVS" value="true" />
     <option name="SCRIPT_NAME" value="C:/php73/symfony.exe" />
     <option name="PARAMETERS" value="serve" />
