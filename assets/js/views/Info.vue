@@ -20,7 +20,7 @@
                     <button class="btn bg-dark shadow-none text-white" v-on:click="count++">counter: {{count}}</button>
                 </div>
             </div>
-            <div class="row mt-2 m-0">
+            <div class="row mt-2 m-0 mb-4">
                 <input class="col-12 form-control" type="text" v-model="name" :placeholder="placeholder">
             </div>
         </div>
